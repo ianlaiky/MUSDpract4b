@@ -7,6 +7,11 @@
     tools:context="com.nyp.sit.dit.it2107.intentlauncher.MainActivity">
 
 
+
+
+
+
+
     <ImageButton
         android:id="@+id/btnCamera"
         android:layout_width="75dp"
