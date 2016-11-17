@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.nyp.sit.dit.it2107.intentlauncher.MainActivity">
+
+
+    <ImageButton
+        android:layout_width="75dp"
+        android:layout_height="75dp"
+        android:id="@+id/btnCamera"
+        android:layout_margin="2.5dp"
+        android:layout_alignParentBottom="true"
+        android:background="@drawable/icon_camera"
+        />
+    
+    <ImageButton
+        android:layout_width="75dp"
+        android:layout_height="75dp"
+        android:id="@+id/btnPlayer"
+        android:layout_margin="2.5dp"
+        android:layout_alignParentBottom="true"
+        android:layout_toRightOf="@+id/btnCamera"
+        android:background="@drawable/icon_music"
+
+        />
+
+    <ImageButton
+        android:layout_width="75dp"
+        android:layout_height="75dp"
+        android:id="@+id/bthDialer"
+        android:layout_margin="2.5dp"
+        android:layout_alignParentBottom="true"
+        android:layout_toRightOf="@+id/btnPlayer"
+        android:background="@drawable/icon_phone"
+        />
+    <ImageButton
+        android:layout_width="75dp"
+        android:layout_height="75dp"
+        android:id="@+id/btnSms"
+        android:layout_margin="2.5dp"
+        android:layout_alignParentBottom="true"
+        android:layout_toRightOf="@+id/bthDialer"
+        android:background="@drawable/icon_sms"
+        />
+
+
+
+
+</RelativeLayout>
