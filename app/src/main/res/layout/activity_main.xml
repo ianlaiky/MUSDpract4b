@@ -8,45 +8,41 @@
 
 
     <ImageButton
-        android:layout_width="75dp"
-        android:layout_height="75dp"
         android:id="@+id/btnCamera"
-        android:layout_margin="2.5dp"
-        android:layout_alignParentBottom="true"
-        android:background="@drawable/icon_camera"
-        />
-    
-    <ImageButton
         android:layout_width="75dp"
         android:layout_height="75dp"
-        android:id="@+id/btnPlayer"
-        android:layout_margin="2.5dp"
         android:layout_alignParentBottom="true"
+        android:layout_margin="2.5dp"
+        android:background="@drawable/icon_camera" />
+
+    <ImageButton
+        android:id="@+id/btnPlayer"
+        android:layout_width="75dp"
+        android:layout_height="75dp"
+        android:layout_alignParentBottom="true"
+        android:layout_margin="2.5dp"
         android:layout_toRightOf="@+id/btnCamera"
         android:background="@drawable/icon_music"
 
         />
 
     <ImageButton
+        android:id="@+id/btnDialer"
         android:layout_width="75dp"
         android:layout_height="75dp"
-        android:id="@+id/bthDialer"
-        android:layout_margin="2.5dp"
         android:layout_alignParentBottom="true"
+        android:layout_margin="2.5dp"
         android:layout_toRightOf="@+id/btnPlayer"
-        android:background="@drawable/icon_phone"
-        />
+        android:background="@drawable/icon_phone" />
+
     <ImageButton
+        android:id="@+id/btnSms"
         android:layout_width="75dp"
         android:layout_height="75dp"
-        android:id="@+id/btnSms"
-        android:layout_margin="2.5dp"
         android:layout_alignParentBottom="true"
-        android:layout_toRightOf="@+id/bthDialer"
-        android:background="@drawable/icon_sms"
-        />
-
-
+        android:layout_margin="2.5dp"
+        android:layout_toRightOf="@+id/btnDialer"
+        android:background="@drawable/icon_sms" />
 
 
 </RelativeLayout>
